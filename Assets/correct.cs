@@ -1,8 +1,8 @@
-ï»¿using UnityEngine;
+using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class CorrectCube : MonoBehaviour
+public class Correct : MonoBehaviour
 {
     public TextMeshProUGUI feedbackText;
     public TextMeshProUGUI retryText;
@@ -18,13 +18,14 @@ public class CorrectCube : MonoBehaviour
         feedbackText.text = "Bravo!";
         retryText.gameObject.SetActive(false);
 
-        // Appeler la mÃ©thode LoadSceneWithDelay aprÃ¨s un dÃ©lai de 3 secondes
+        // Appeler la méthode LoadSceneWithDelay après un délai de 3 secondes
         Invoke("LoadSceneWithDelay", 3f);
     }
 
-    // MÃ©thode pour charger la nouvelle scÃ¨ne aprÃ¨s un dÃ©lai
+    // Méthode pour charger la nouvelle scène après un délai
     void LoadSceneWithDelay()
     {
-        SceneManager.LoadScene("Task2L1");
+        // Charger la nouvelle scène "T2L1"
+        SceneManager.LoadScene("T2L1");
     }
 }
