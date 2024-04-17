@@ -18,14 +18,14 @@ public class Correct : MonoBehaviour
         feedbackText.text = "Bravo!";
         retryText.gameObject.SetActive(false);
 
-        // Appeler la méthode LoadSceneWithDelay après un délai de 3 secondes
+        // Appeler la mï¿½thode LoadSceneWithDelay aprï¿½s un dï¿½lai de 3 secondes
         Invoke("LoadSceneWithDelay", 3f);
     }
 
-    // Méthode pour charger la nouvelle scène après un délai
+    // Mï¿½thode pour charger la nouvelle scï¿½ne aprï¿½s un dï¿½lai
     void LoadSceneWithDelay()
     {
-        // Charger la nouvelle scène "T2L1"
-        SceneManager.LoadScene("T2L1");
+        // Charger la nouvelle scï¿½ne "T2L1"
+        SceneManager.LoadScene("puzzle");
     }
 }

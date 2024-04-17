@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/T2L1.unity
     guid: 8debd872fbdc00a42b2f1d234f4bef56
+  - enabled: 1
+    path: Assets/Scenes/puzzle.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
