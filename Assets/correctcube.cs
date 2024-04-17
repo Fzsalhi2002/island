@@ -25,6 +25,6 @@ public class CorrectCube : MonoBehaviour
     // Méthode pour charger la nouvelle scène après un délai
     void LoadSceneWithDelay()
     {
-        SceneManager.LoadScene("Task2L1");
+        SceneManager.LoadScene("Task2L2");
     }
 }
