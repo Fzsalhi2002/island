@@ -14,7 +14,7 @@ public class piceseScript : MonoBehaviour
         RightPosition = transform.position;
         transform.position = new Vector3(Random.Range(19f, 37f), Random.Range(9f, -14));
     }
-    
+
     void Update()
     {
         // Exemple de logique pour vérifier si l'objet est à la bonne position
