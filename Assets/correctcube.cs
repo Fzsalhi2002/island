@@ -15,7 +15,7 @@ public class CorrectCube : MonoBehaviour
     private void OnMouseDown()
     {
         ClearFeedbackText();
-        feedbackText.text = "Bravo!";
+        feedbackText.text = "Perfect! Score: 25";
         retryText.gameObject.SetActive(false);
 
         // Appeler la méthode LoadSceneWithDelay après un délai de 3 secondes

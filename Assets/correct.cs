@@ -15,7 +15,7 @@ public class Correct : MonoBehaviour
     private void OnMouseDown()
     {
         ClearFeedbackText();
-        feedbackText.text = "Bravo!";
+        feedbackText.text = "Bravo! Score: 5";
         retryText.gameObject.SetActive(false);
 
         // Appeler la m�thode LoadSceneWithDelay apr�s un d�lai de 3 secondes
