@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; // Ajoutez ce namespace pour accéder à SceneManager
+using UnityEngine.SceneManagement; // Ajoutez ce namespace pour accï¿½der ï¿½ SceneManager
 using TMPro;
 
 public class GameManager : MonoBehaviour
@@ -26,17 +26,17 @@ public class GameManager : MonoBehaviour
         {
             messageText.text = "Nice! Score: 10";
             messageText.gameObject.SetActive(true); // Active le texte
-            Invoke("LoadNextScene", 3f); // Appelle la fonction LoadNextScene après 3 secondes
+            Invoke("LoadNextScene", 3f); // Appelle la fonction LoadNextScene aprï¿½s 3 secondes
         }
         else
         {
-            messageText.gameObject.SetActive(false); // Désactive le texte s'il n'est pas affiché
+            messageText.gameObject.SetActive(false); // Dï¿½sactive le texte s'il n'est pas affichï¿½
         }
     }
 
     void LoadNextScene()
     {
-        // Charge la prochaine scène
-        SceneManager.LoadScene("Transition1");
+        // Charge la prochaine scï¿½ne
+        SceneManager.LoadScene("DemoD");
     }
 }

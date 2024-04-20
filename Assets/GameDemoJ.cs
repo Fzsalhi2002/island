@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 using TMPro;
 
-public class GameDemo : MonoBehaviour {
+public class GameDemoJ : MonoBehaviour {
   [SerializeField] private Transform gameTransform;
   [SerializeField] private Transform piecePrefab;
 
@@ -116,19 +115,13 @@ public class GameDemo : MonoBehaviour {
 
     // Le puzzle est résolu, afficher le score et le message "Bravo"
     if (messageText != null) {
-        messageText.text = "Bravo ! Score: 20";
+        messageText.text = "Bravo ! Score: 60";
         messageText.gameObject.SetActive(true); // Active le texte
-        Invoke("LoadNextScene", 3f); // Appelle la fonction LoadNextScene apr�s 3 secondes
     }
 
     return true;
 }
 
-void LoadNextScene()
-    {
-        // Charge la prochaine sc�ne
-        SceneManager.LoadScene("DemoC");
-    }
 
   private IEnumerator WaitShuffle(float duration) {
     yield return new WaitForSeconds(duration);
