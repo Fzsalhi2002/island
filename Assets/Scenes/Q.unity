@@ -1532,7 +1532,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4009da4339d28da4ab1f4131c0ce49c7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.74
+      value: 3.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4009da4339d28da4ab1f4131c0ce49c7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1995,10 +1995,50 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8194250376884848707, guid: 4d98ef9cb7cf93943b36d82273951d80, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7d88c018c53da254c9ff3a63921c57a1, type: 2}
+    - target: {fileID: -5342047471237152312, guid: 4d98ef9cb7cf93943b36d82273951d80, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7d88c018c53da254c9ff3a63921c57a1, type: 2}
+    - target: {fileID: -5330783859700577931, guid: 4d98ef9cb7cf93943b36d82273951d80, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7d88c018c53da254c9ff3a63921c57a1, type: 2}
+    - target: {fileID: -5121792095797009104, guid: 4d98ef9cb7cf93943b36d82273951d80, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7d88c018c53da254c9ff3a63921c57a1, type: 2}
+    - target: {fileID: -2663843047038710994, guid: 4d98ef9cb7cf93943b36d82273951d80, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7d88c018c53da254c9ff3a63921c57a1, type: 2}
+    - target: {fileID: -1540114974126477877, guid: 4d98ef9cb7cf93943b36d82273951d80, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7d88c018c53da254c9ff3a63921c57a1, type: 2}
+    - target: {fileID: 390877223301329605, guid: 4d98ef9cb7cf93943b36d82273951d80, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7d88c018c53da254c9ff3a63921c57a1, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d98ef9cb7cf93943b36d82273951d80, type: 3}
       propertyPath: m_Name
       value: modular landscape
       objectReference: {fileID: 0}
+    - target: {fileID: 3319239556798519955, guid: 4d98ef9cb7cf93943b36d82273951d80, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7d88c018c53da254c9ff3a63921c57a1, type: 2}
+    - target: {fileID: 6685398244823947137, guid: 4d98ef9cb7cf93943b36d82273951d80, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7d88c018c53da254c9ff3a63921c57a1, type: 2}
+    - target: {fileID: 7515559801017925900, guid: 4d98ef9cb7cf93943b36d82273951d80, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7d88c018c53da254c9ff3a63921c57a1, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
