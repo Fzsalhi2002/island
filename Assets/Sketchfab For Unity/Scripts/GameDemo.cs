@@ -127,7 +127,7 @@ public class GameDemo : MonoBehaviour {
 void LoadNextScene()
     {
         // Charge la prochaine sc�ne
-        SceneManager.LoadScene("DemoC");
+        SceneManager.LoadScene("Transition2");
     }
 
   private IEnumerator WaitShuffle(float duration) {

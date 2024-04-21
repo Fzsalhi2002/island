@@ -18,7 +18,7 @@ public class piceseScript : MonoBehaviour
     void Update()
     {
         // Exemple de logique pour vérifier si l'objet est à la bonne position
-        if (Vector3.Distance(transform.position, RightPosition) < 0.5f)
+        if (Vector3.Distance(transform.position, RightPosition) < 1.0f)
         {
             if (!Selected && !InRightPosition)
             {

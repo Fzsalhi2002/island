@@ -37,6 +37,6 @@ public class GameManager : MonoBehaviour
     void LoadNextScene()
     {
         // Charge la prochaine sc�ne
-        SceneManager.LoadScene("DemoD");
+        SceneManager.LoadScene("Transition1");
     }
 }
