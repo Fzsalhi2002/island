@@ -1,8 +1,8 @@
-ï»¿using UnityEngine;
+using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class CorrectCube : MonoBehaviour
+public class W : MonoBehaviour
 {
     public TextMeshProUGUI feedbackText;
     public TextMeshProUGUI retryText;
@@ -15,14 +15,14 @@ public class CorrectCube : MonoBehaviour
     private void OnMouseDown()
     {
         ClearFeedbackText();
-        feedbackText.text = "Perfect! Score: 45";
+        feedbackText.text = "Perfect! Score: 25";
         retryText.gameObject.SetActive(false);
 
-        // Appeler la mÃ©thode LoadSceneWithDelay aprÃ¨s un dÃ©lai de 3 secondes
+        // Appeler la méthode LoadSceneWithDelay après un délai de 3 secondes
         Invoke("LoadSceneWithDelay", 3f);
     }
 
-    // MÃ©thode pour charger la nouvelle scÃ¨ne aprÃ¨s un dÃ©lai
+    // Méthode pour charger la nouvelle scène après un délai
     void LoadSceneWithDelay()
     {
         SceneManager.LoadScene("Task2L2");
