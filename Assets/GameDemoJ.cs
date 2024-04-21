@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GameDemoJ : MonoBehaviour {
@@ -117,10 +118,17 @@ public class GameDemoJ : MonoBehaviour {
     if (messageText != null) {
         messageText.text = "Bravo ! Score: 60";
         messageText.gameObject.SetActive(true); // Active le texte
+        Invoke("LoadNextScene", 3f); // Appelle la fonction LoadNextScene apr�s 3 secondes
     }
 
     return true;
 }
+
+void LoadNextScene()
+    {
+        // Charge la prochaine sc�ne
+        SceneManager.LoadScene("Transition5");
+    }
 
 
   private IEnumerator WaitShuffle(float duration) {
