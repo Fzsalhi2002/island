@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/L.unity
+    guid: 93d86b739639c3443ad927bcb03cfcbb
+  - enabled: 1
     path: Assets/Scenes/level1.unity
     guid: 68d8ccd3d30107d488733a1503a69d8d
   - enabled: 1
@@ -38,6 +41,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Transition4.unity
     guid: 0e26a02eb269fa143b94e08090da47aa
+  - enabled: 1
+    path: Assets/Scenes/Transition8.unity
+    guid: 5a14d71d45f498e47bae724439baa2b6
+  - enabled: 1
+    path: Assets/Scenes/Transition6.unity
+    guid: fde0401ca25995249a9e0c7b7a760f5d
+  - enabled: 1
+    path: Assets/Scenes/Transition5.unity
+    guid: cb6b22fae8dfa6148b36be342d92198a
+  - enabled: 1
+    path: Assets/Scenes/Transition7.unity
+    guid: 489599e5540e15c48b8768021c388386
   - enabled: 1
     path: Assets/Scenes/F.unity
     guid: 590bf3050956ae2499b75ef3fc3bdd94
