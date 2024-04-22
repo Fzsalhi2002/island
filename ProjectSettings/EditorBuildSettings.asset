@@ -24,14 +24,23 @@ EditorBuildSettings:
     path: Assets/Scenes/DemoC.unity
     guid: fa4b6721386da4e45b66a90995bfda27
   - enabled: 1
+    path: Assets/Scenes/Q.unity
+    guid: 18c46b15fa511b9439c752fd49f55ccc
+  - enabled: 1
     path: Assets/Scenes/Transition2.unity
     guid: 8df8ba3423781b64f80a2f62836a0ee2
+  - enabled: 1
+    path: Assets/Scenes/DemoH.unity
+    guid: 3c93103bdee23ab459e757c6c8a5edcc
   - enabled: 1
     path: Assets/Scenes/level3.unity
     guid: 12012e83a71d87e4b83ac5c11cd045d7
   - enabled: 1
     path: Assets/Scenes/Transition1.unity
     guid: 7991b0c61c5826b4fa51c37323ac2599
+  - enabled: 1
+    path: Assets/Scenes/DemoJ.unity
+    guid: b62fe9e98f1da894e843519a452e13bc
   - enabled: 1
     path: Assets/Scenes/level2.unity
     guid: 334145bd755b08f4e8f531f634143fc4
@@ -45,11 +54,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Transition8.unity
     guid: 5a14d71d45f498e47bae724439baa2b6
   - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: 76279153cf32bca4aa55928965e71b50
+  - enabled: 1
     path: Assets/Scenes/Transition6.unity
     guid: fde0401ca25995249a9e0c7b7a760f5d
   - enabled: 1
     path: Assets/Scenes/Transition5.unity
     guid: cb6b22fae8dfa6148b36be342d92198a
+  - enabled: 1
+    path: Assets/Scenes/DemoX.unity
+    guid: 565aa25b610102a47b9e5c110e1f71a2
   - enabled: 1
     path: Assets/Scenes/Transition7.unity
     guid: 489599e5540e15c48b8768021c388386
