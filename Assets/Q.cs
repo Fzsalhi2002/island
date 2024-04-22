@@ -23,7 +23,6 @@ public class Q : MonoBehaviour
 
     void LoadSceneWithDelay()
     {
-        // Charger la nouvelle sc�ne "T2L1"
-        SceneManager.LoadScene("puzzle");
+        SceneManager.LoadScene("Ppuzzle");
     }
 }

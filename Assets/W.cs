@@ -25,6 +25,6 @@ public class W : MonoBehaviour
     // Méthode pour charger la nouvelle scène après un délai
     void LoadSceneWithDelay()
     {
-        SceneManager.LoadScene("Task2L2");
+        SceneManager.LoadScene("spuzzle");
     }
 }
