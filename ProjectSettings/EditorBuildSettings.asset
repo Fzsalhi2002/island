@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/L.unity
     guid: 93d86b739639c3443ad927bcb03cfcbb
   - enabled: 1
+    path: Assets/Scenes/Transition9.unity
+    guid: 51fe6a5fc37670f43bef682a2efce938
+  - enabled: 1
     path: Assets/Scenes/level1.unity
     guid: 68d8ccd3d30107d488733a1503a69d8d
   - enabled: 1
