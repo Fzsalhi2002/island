@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GameDemoX : MonoBehaviour {
@@ -117,13 +118,17 @@ public class GameDemoX : MonoBehaviour {
     if (messageText != null) {
         messageText.text = "Bravo ! Score: 100";
         messageText.gameObject.SetActive(true); // Active le texte
-    }
+            Invoke("LoadNextScene", 3f); 
+        }
 
     return true;
 }
 
-
-  private IEnumerator WaitShuffle(float duration) {
+    void LoadNextScene()
+    {
+        SceneManager.LoadScene("Final");
+    }
+    private IEnumerator WaitShuffle(float duration) {
     yield return new WaitForSeconds(duration);
     //Shuffle();
     shuffling = false;
